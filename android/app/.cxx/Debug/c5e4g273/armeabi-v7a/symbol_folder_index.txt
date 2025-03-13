@@ -1,0 +1,1 @@
+C:\flutter projects\reponsive_dashboard\build\app\intermediates\cxx\Debug\c5e4g273\obj\armeabi-v7a
