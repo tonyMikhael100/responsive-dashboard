@@ -34,6 +34,12 @@ class $AssetsImagesGen {
   /// File path: assets/images/graph.svg
   String get graph => 'assets/images/graph.svg';
 
+  /// File path: assets/images/logout.svg
+  String get logout => 'assets/images/logout.svg';
+
+  /// File path: assets/images/setting-2.svg
+  String get setting2 => 'assets/images/setting-2.svg';
+
   /// File path: assets/images/wallet-2.png
   AssetGenImage get wallet2 =>
       const AssetGenImage('assets/images/wallet-2.png');
@@ -47,6 +53,8 @@ class $AssetsImagesGen {
     category2,
     chart2,
     graph,
+    logout,
+    setting2,
     wallet2,
   ];
 }

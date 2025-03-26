@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 abstract class AppStyle {
-  // Text Sizes 
-
+  // Text Sizes
 
   //hello
   static const double heading1 = 24.0;
@@ -57,6 +56,6 @@ abstract class AppStyle {
   static final TextStyle expenseStyle = GoogleFonts.aBeeZee(
     fontSize: bodyText,
     fontWeight: semiBold,
-    color: Colors.red,
+    color: Color(0xff4EB7F2),
   );
 }
