@@ -9,6 +9,7 @@ class DashboardView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFF7F9FD),
       body: LayoutBuilder(builder: (context, constrins) {
         if (constrins.maxWidth < 600) {
           return SizedBox();

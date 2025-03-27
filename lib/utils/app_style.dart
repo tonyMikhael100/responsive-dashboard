@@ -29,6 +29,16 @@ abstract class AppStyle {
     fontWeight: semiBold,
     color: Colors.black54,
   );
+  static final TextStyle moneyAllExpenese = GoogleFonts.aBeeZee(
+    fontSize: heading2,
+    fontWeight: semiBold,
+    color: Colors.white,
+  );
+  static final TextStyle moneyAllExpeneseBlack = GoogleFonts.aBeeZee(
+    fontSize: heading2,
+    fontWeight: semiBold,
+    color: Colors.white,
+  );
 
   static final TextStyle bodyStyle = GoogleFonts.aBeeZee(
     fontSize: bodyText,
@@ -39,7 +49,17 @@ abstract class AppStyle {
   static final TextStyle smallTextStyle = GoogleFonts.aBeeZee(
     fontSize: smallText,
     fontWeight: regular,
-    color: Colors.grey,
+    color: Colors.white,
+  );
+  static final TextStyle smallTextBlack = GoogleFonts.aBeeZee(
+    fontSize: smallText,
+    fontWeight: regular,
+    color: Colors.white,
+  );
+  static final TextStyle dateText = GoogleFonts.aBeeZee(
+    fontSize: 14,
+    fontWeight: regular,
+    color: Color(0xFFFAFAFA),
   );
 
   static final TextStyle transactionAmountStyle = GoogleFonts.aBeeZee(

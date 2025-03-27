@@ -37,6 +37,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/logout.svg
   String get logout => 'assets/images/logout.svg';
 
+  /// File path: assets/images/moneys.svg
+  String get moneys => 'assets/images/moneys.svg';
+
   /// File path: assets/images/setting-2.svg
   String get setting2 => 'assets/images/setting-2.svg';
 
@@ -54,6 +57,7 @@ class $AssetsImagesGen {
     chart2,
     graph,
     logout,
+    moneys,
     setting2,
     wallet2,
   ];
